@@ -5,6 +5,7 @@ import { resolve } from "path";
 import { sync } from "glob";
 
 export default {
+  base:"./",
   resolve: {
     alias: {
       "@js": resolve(__dirname, "src/assets/js"),
